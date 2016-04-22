@@ -6,13 +6,13 @@ import java.awt.event.*;
 import java.util.Random;
 
 //TODO add junit tests
-public class test extends JFrame
+public class GuiMain extends JFrame
 {
 	JButton SadisticButton;
 	JLabel PreyLabel;
 	String[] Screams_Prey, Screams_Culprit;	
 	
-	test(String title)
+	GuiMain(String title)
 	{
 		super(title);
 		
@@ -55,7 +55,7 @@ public class test extends JFrame
 	
 	public static void main(String[] args)
 	{
-		test testForm = new test("Label Mobbing");
+		GuiMain testForm = new GuiMain("Label Mobbing");
 		testForm.pack();
 		testForm.setSize(500, 200);
 		testForm.setVisible(true);
