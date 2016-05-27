@@ -1,4 +1,4 @@
-package com.richardrudolph.code.java_test;
+package com.uedaichitaka.code.java_test;
 
 import javax.swing.*;
 import java.awt.*;
